@@ -37,7 +37,6 @@ export default {
         this.n++;
         if(this.n >= this.info.length)
         this.n = 0;
-        console.log(this.n)
       }, 3000);
     },
     showLabel(){

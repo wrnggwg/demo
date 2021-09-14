@@ -170,9 +170,6 @@ export default {
     display: block;
     width: auto;
   }
-  #nav{
-    
-  }
   #Top{
     width: 1190px;
     height: 44px;
