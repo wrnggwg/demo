@@ -8,7 +8,7 @@
         <div class="list">
           <a href="javascript:;" class="listItem" v-for="item in info" :key="item">
             <div class="wrap">
-              <img src="../../assets/密 码.png" alt="">
+              <img src="../../assets/products1.jpg" alt="">
               <h3 class="synopsis">【原装进口，淡淡果香】</h3>
               <p class="from">西班牙进口</p>
               <p class="price">

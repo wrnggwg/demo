@@ -62,14 +62,14 @@
         <div id="Carousel"><Carousel></Carousel></div>
         <div id="tmallMarkets">
           <div id="row1">
-            <div class="row1Item" style="background:red"></div>
-            <div class="row1Item" style="background:aqua"></div>
-            <div class="row1Item" style="background:red"></div>
+            <div class="row1Item"><img src="../assets/chaoshi1.jpg" alt=""></div>
+            <div class="row1Item"><img src="../assets/chaoshi2.jpg" alt=""></div>
+            <div class="row1Item"><img src="../assets/chaoshi3.jpg" alt=""></div>
           </div>
           <div id="row2">
-            <div class="row2Item" style="background:red"></div>
-            <div class="row2Item" style="background:aqua"></div>
-            <div class="row2Item" style="background:red"></div>
+            <div class="row2Item"><img src="../assets/chaoshi4.jpg" alt=""></div>
+            <div class="row2Item"><img src="../assets/chaoshi5.jpg" alt=""></div>
+            <div class="row2Item"><img src="../assets/chaoshi6.jpg" alt=""></div>
           </div>
         </div>
       </div>
