@@ -77,6 +77,11 @@
         <a class="sidebarItem" href="javascript:;" v-for="item in sidebar" :key="item"><img :src="item.src" alt=""></a>
       </div>
     </div>
+    <div class="productSort">
+      <div class="productItem" v-for="item in productItem" :key="item">
+        <Products></Products>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -341,15 +346,26 @@ a:hover{
   width: 100%;
   height: 100%;
 }
+.productSort{
+  width: 1190px;
+  margin: auto;
+}
+.productItem{
+  margin-bottom: 100px;
+  width: 1190px;
+  height: 600px;
+}
 </style>
 <script>
 import CatBd from '../components/CatBd/CatBd.vue'
 import Carousel from '../components/Carousel/Carousel.vue'
+import Products from '../components/Products/Products.vue'
 export default {
   name : "mallPage",
   components: {
     CatBd,
-    Carousel
+    Carousel,
+    Products
   },
   methods:{
     linkLogin(){
@@ -371,11 +387,12 @@ export default {
       info:['进口食品','食品饮料','粮油副食','美容洗护','家居家电','家庭清洁','母婴用品','生活服务'],
       sidebar:[{
         name: '休食',
-        src: require('../assets/密 码.png')
+        src: require('../assets/sidebar1.jpg')
       },{
         name: '粮油',
-        src: require('../assets/手机.png')
-      }]
+        src: require('../assets/sidebar2.jpg')
+      }],
+      productItem:[1,2,3,4,5]
     }
   }
 }

@@ -23,9 +23,10 @@ export default {
   data(){
     return {
       info:[
-        require('../../assets/密 码.png'),
-        require('../../assets/手机.png'),
-        require('../../assets/用户名.png')
+        require('../../assets/Carousel1.jpg'),
+        require('../../assets/Carousel2.jpg'),
+        require('../../assets/Carousel3.jpg'),
+        require('../../assets/Carousel4.jpg'),
       ],
       n:0,
       isActive:false

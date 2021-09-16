@@ -1,7 +1,7 @@
 <template>
   <div id="cat_bd">
     <h3>
-      <div id="Img"></div>
+      <div id="Img"><img src="../../assets/飞机.png" alt=""></div>
       <a href="javascript:;">进口食品</a>
     </h3>
     <p>
@@ -32,7 +32,10 @@ export default {
   display: inline-block;
   width: 18px;
   height: 18px;
-  border: 1px solid gray;
+}
+#Img img{
+  width: 100%;
+  height: 100%;
 }
 a{
   display: inline-block;
